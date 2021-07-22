@@ -1,0 +1,11 @@
+/home/rhyme/maven-java-sample-app/src/test/java/org/springframework/samples/petclinic/vet/VetTests.java
+/home/rhyme/maven-java-sample-app/src/test/java/org/springframework/samples/petclinic/vet/VetControllerTests.java
+/home/rhyme/maven-java-sample-app/src/test/java/org/springframework/samples/petclinic/system/CrashControllerTests.java
+/home/rhyme/maven-java-sample-app/src/test/java/org/springframework/samples/petclinic/model/ValidatorTests.java
+/home/rhyme/maven-java-sample-app/src/test/java/org/springframework/samples/petclinic/owner/OwnerControllerTests.java
+/home/rhyme/maven-java-sample-app/src/test/java/org/springframework/samples/petclinic/PetclinicIntegrationTests.java
+/home/rhyme/maven-java-sample-app/src/test/java/org/springframework/samples/petclinic/service/EntityUtils.java
+/home/rhyme/maven-java-sample-app/src/test/java/org/springframework/samples/petclinic/owner/PetTypeFormatterTests.java
+/home/rhyme/maven-java-sample-app/src/test/java/org/springframework/samples/petclinic/owner/VisitControllerTests.java
+/home/rhyme/maven-java-sample-app/src/test/java/org/springframework/samples/petclinic/owner/PetControllerTests.java
+/home/rhyme/maven-java-sample-app/src/test/java/org/springframework/samples/petclinic/service/ClinicServiceTests.java
