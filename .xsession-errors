@@ -1,0 +1,73 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/rhyme/.Xauthority
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting LANG=C.UTF-8
+dbus-update-activation-environment: setting GDM_LANG=en
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting GTK_OVERLAY_SCROLLING=0
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/rhyme
+dbus-update-activation-environment: setting USER=rhyme
+dbus-update-activation-environment: setting DESKTOP_SESSION=xubuntu
+dbus-update-activation-environment: setting QT_QPA_PLATFORMTHEME=gtk2
+dbus-update-activation-environment: setting PWD=/home/rhyme
+dbus-update-activation-environment: setting HOME=/home/rhyme
+dbus-update-activation-environment: setting GOROOT=/usr/local/go
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/share/xubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=xubuntu
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting CLUTTER_BACKEND=x11
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting SHLVL=1
+dbus-update-activation-environment: setting LANGUAGE=en
+dbus-update-activation-environment: setting GDMSESSION=xubuntu
+dbus-update-activation-environment: setting LOGNAME=rhyme
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1001
+dbus-update-activation-environment: setting XAUTHORITY=/home/rhyme/.Xauthority
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-xubuntu:/etc/xdg
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/go/bin:/snap/bin
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+Gtk-Message: 06:08:52.362: Failed to load module "atk-bridge"
+
+(xfce4-session:1511): xfce4-session-WARNING **: 06:08:52.463: xfsm_manager_load_session: Something wrong with /home/rhyme/.cache/sessions/xfce4-session-ip-172-31-207-159:0, Does it exist? Permissions issue?
+** Message: 06:08:52.580: couldn't access control socket: /run/user/1001/keyring/control: No such file or directory
+Gtk-Message: 06:08:52.625: Failed to load module "atk-bridge"
+Gtk-Message: 06:08:52.704: Failed to load module "atk-bridge"
+
+(xfce4-session:1511): xfce4-session-WARNING **: 06:08:52.733: Unable to launch "update-notifier" (specified by autostart/update-notifier.desktop): Failed to execute child process “update-notifier” (No such file or directory)
+Gtk-Message: 06:08:52.744: Failed to load module "atk-bridge"
+Gtk-Message: 06:08:52.746: Failed to load module "atk-bridge"
+Gtk-Message: 06:08:52.755: Failed to load module "atk-bridge"
+Gtk-Message: 06:08:53.190: Failed to load module "atk-bridge"
+
+(xfsettingsd:1554): xfsettingsd-WARNING **: 06:08:53.617: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+
+(xfwm4:1539): xfwm4-WARNING **: 06:08:53.682: Error opening /dev/dri/card0: No such file or directory
+Gtk-Message: 06:08:53.718: Failed to load module "atk-bridge"
+
+(polkit-gnome-authentication-agent-1:1564): GLib-CRITICAL **: 06:08:53.849: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:1564): polkit-gnome-1-WARNING **: 06:08:53.860: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(nm-applet:1550): Gtk-WARNING **: 06:08:54.257: Can't set a parent on widget which has a parent
+
+(wrapper-2.0:1631): Gtk-WARNING **: 06:08:55.439: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+Gtk-Message: 06:09:04.149: Failed to load module "atk-bridge"
+thunar-volman: Could not detect the volume corresponding to the device.
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+
+(wrapper-2.0:1631): Gdk-CRITICAL **: 06:59:05.161: Window 0x5602b90daaf0 has not been made visible in GdkSeatGrabPrepareFunc
+[3827:3827:0722/065934.847148:ERROR:edid_parser.cc(102)] Too short EDID data: manufacturer id
+[3858:3858:0722/065936.096619:ERROR:viz_main_impl.cc(161)] Exiting GPU process due to errors during initialization
