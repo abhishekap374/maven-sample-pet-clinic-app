@@ -21,10 +21,8 @@ steps:
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
 
-- script: |
-     displayName: 'Build Application'
-
-- script: |
-       $(FORTIFY_INSTALL_PATH)/bin/sourceanalyzer -b $(Build.DefinitionName) -clean
-       $(FORTIFY_INSTALL_PATH)/bin/sourceanalyzer -b $(Build.DefinitionName) $(BUILD_OUTPUT) -scan -f fortify-results.fpr
-       displayName: 'Run Fortify Static Code Analysis'
+- task: DownloadPipelineArtifact@2
+  inputs:
+    buildType: 'current'
+    artifactName: 'abhi-1.0'
+    targetPath: '$(Pipeline.Workspace)'
